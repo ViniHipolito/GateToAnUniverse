@@ -7,6 +7,8 @@ theeList = ["???: Outro video jogo, não?", "???: Vós conhece o primeiro.", "??
 "???: O que é isso?", '???: Bem, um pequeno "Easter Egg".', "???: ...", "???: Odeio ter de abrir os olhos de uns.", "???: Mas... a Sheller está esperando vós.", "Zacharie: Também estarei"]
 
 def DebuggingProcess():
+  print("Já acabou neguin")
+  time.sleep(9999)
   for x in theeList:
     print(x)
     time.sleep(2)
